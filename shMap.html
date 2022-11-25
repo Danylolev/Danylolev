@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_85dbf3cdb1f10053ce0ccf652ef76fed {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_85dbf3cdb1f10053ce0ccf652ef76fed" ></div>
+        
+</body>
+<script>    
+    
+            var map_85dbf3cdb1f10053ce0ccf652ef76fed = L.map(
+                "map_85dbf3cdb1f10053ce0ccf652ef76fed",
+                {
+                    center: [40.593226, -73.944904],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dc1c9db3241d44f5c61643e993b126ab = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+            var marker_6b2a7a808d9aa9da50b7ce84726d06fb = L.marker(
+                [40.609366, -73.954512],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_c606a9c50c6dc990f7922ad1fbce0350 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f4e44e65ff106dc5a7261957119af27 = $(`<div id="html_9f4e44e65ff106dc5a7261957119af27" style="width: 100.0%; height: 100.0%;">1669 EAST 19TH ST</div>`)[0];
+            popup_c606a9c50c6dc990f7922ad1fbce0350.setContent(html_9f4e44e65ff106dc5a7261957119af27);
+        
+
+        marker_6b2a7a808d9aa9da50b7ce84726d06fb.bindPopup(popup_c606a9c50c6dc990f7922ad1fbce0350)
+        ;
+
+        
+    
+    
+            var marker_ff294dd5205ed04fc64f615c184ffcba = L.marker(
+                [40.597167, -73.950977],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_2c27ccd5f3df63db113a03e514635c53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a64d74c97e8a4235f946a27659b76f5 = $(`<div id="html_4a64d74c97e8a4235f946a27659b76f5" style="width: 100.0%; height: 100.0%;">2633 OCEAN AVENUE APARTMENTS</div>`)[0];
+            popup_2c27ccd5f3df63db113a03e514635c53.setContent(html_4a64d74c97e8a4235f946a27659b76f5);
+        
+
+        marker_ff294dd5205ed04fc64f615c184ffcba.bindPopup(popup_2c27ccd5f3df63db113a03e514635c53)
+        ;
+
+        
+    
+    
+            var marker_60f8bfc2490c23435325067fca737ff7 = L.marker(
+                [40.608475, -73.956141],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_f929b0cec93685eeee888abce8adea90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_255463ef41a33621a2266b671c4c99df = $(`<div id="html_255463ef41a33621a2266b671c4c99df" style="width: 100.0%; height: 100.0%;">1705 EAST 17TH STREET</div>`)[0];
+            popup_f929b0cec93685eeee888abce8adea90.setContent(html_255463ef41a33621a2266b671c4c99df);
+        
+
+        marker_60f8bfc2490c23435325067fca737ff7.bindPopup(popup_f929b0cec93685eeee888abce8adea90)
+        ;
+
+        
+    
+    
+            var marker_10631e75e9569074a0e4bf978f3c69a7 = L.marker(
+                [40.602281, -73.951968],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_1a68ab42d4dc79edc84c667dc2fb2cb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cece62def435a36f36658a3678a764c = $(`<div id="html_0cece62def435a36f36658a3678a764c" style="width: 100.0%; height: 100.0%;">2442 OCEAN AVENUE APARTMENTS</div>`)[0];
+            popup_1a68ab42d4dc79edc84c667dc2fb2cb0.setContent(html_0cece62def435a36f36658a3678a764c);
+        
+
+        marker_10631e75e9569074a0e4bf978f3c69a7.bindPopup(popup_1a68ab42d4dc79edc84c667dc2fb2cb0)
+        ;
+
+        
+    
+    
+            var marker_9c94e8ddd1aefa5776658092d5ed3bc1 = L.marker(
+                [40.614918, -73.946368],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_4caecb025191be0015fbbd51bcacd6f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a3966ba5f010e9d2f7c942cf7285db6 = $(`<div id="html_5a3966ba5f010e9d2f7c942cf7285db6" style="width: 100.0%; height: 100.0%;">2802 KINGS HIGHWAY APARTMENTS</div>`)[0];
+            popup_4caecb025191be0015fbbd51bcacd6f0.setContent(html_5a3966ba5f010e9d2f7c942cf7285db6);
+        
+
+        marker_9c94e8ddd1aefa5776658092d5ed3bc1.bindPopup(popup_4caecb025191be0015fbbd51bcacd6f0)
+        ;
+
+        
+    
+    
+            var marker_b33cc048fbc940bdbcd79d66746d9c80 = L.marker(
+                [40.578026, -73.954127],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_82e5edd618e271adb1ad6fa5abc06feb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efe758cb6dc769fe3e068de873362188 = $(`<div id="html_efe758cb6dc769fe3e068de873362188" style="width: 100.0%; height: 100.0%;">SCHEUER HOUSE OF MANHATTAN BEACH</div>`)[0];
+            popup_82e5edd618e271adb1ad6fa5abc06feb.setContent(html_efe758cb6dc769fe3e068de873362188);
+        
+
+        marker_b33cc048fbc940bdbcd79d66746d9c80.bindPopup(popup_82e5edd618e271adb1ad6fa5abc06feb)
+        ;
+
+        
+    
+    
+            var marker_81af57586e9b17f0fa1e7eb61430d66c = L.marker(
+                [40.577836, -73.953079],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_1be22a39d423e895355fd4c895980648 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b7130d215cd5f5f630f7edddcbad57d = $(`<div id="html_1b7130d215cd5f5f630f7edddcbad57d" style="width: 100.0%; height: 100.0%;">SCHEUER HOUSE OF MANHATTAN BEACH</div>`)[0];
+            popup_1be22a39d423e895355fd4c895980648.setContent(html_1b7130d215cd5f5f630f7edddcbad57d);
+        
+
+        marker_81af57586e9b17f0fa1e7eb61430d66c.bindPopup(popup_1be22a39d423e895355fd4c895980648)
+        ;
+
+        
+    
+    
+            var marker_816406007d0986ec10574eaeffecfccd = L.marker(
+                [40.57975, -73.96323],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_930a868582eb63476d40ae2df2c2a4b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b10a136c35371f212fa4b87a2c41723 = $(`<div id="html_0b10a136c35371f212fa4b87a2c41723" style="width: 100.0%; height: 100.0%;">2955 BRIGHTON 5TH STREET APARTMENTS</div>`)[0];
+            popup_930a868582eb63476d40ae2df2c2a4b8.setContent(html_0b10a136c35371f212fa4b87a2c41723);
+        
+
+        marker_816406007d0986ec10574eaeffecfccd.bindPopup(popup_930a868582eb63476d40ae2df2c2a4b8)
+        ;
+
+        
+    
+    
+            var marker_e6f59435c7cca38d6f415a66641f6a67 = L.marker(
+                [40.575657, -73.961105],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_1418d04f6566cc38e2496e78a7eed96f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31c7642624cac7a8d5d223a0480eff11 = $(`<div id="html_31c7642624cac7a8d5d223a0480eff11" style="width: 100.0%; height: 100.0%;">BRIGHTON BEACH HDFC</div>`)[0];
+            popup_1418d04f6566cc38e2496e78a7eed96f.setContent(html_31c7642624cac7a8d5d223a0480eff11);
+        
+
+        marker_e6f59435c7cca38d6f415a66641f6a67.bindPopup(popup_1418d04f6566cc38e2496e78a7eed96f)
+        ;
+
+        
+    
+    
+            var marker_e536fc03ae2b8121cf19c09b3fc3b9b3 = L.marker(
+                [40.587495, -73.946534],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_dc9094262d3d5ed2208b872b484c4711 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a3fe4c16e88c137e494dea503e0752d = $(`<div id="html_1a3fe4c16e88c137e494dea503e0752d" style="width: 100.0%; height: 100.0%;">2655 EAST 23RD STREET APARTMENTS</div>`)[0];
+            popup_dc9094262d3d5ed2208b872b484c4711.setContent(html_1a3fe4c16e88c137e494dea503e0752d);
+        
+
+        marker_e536fc03ae2b8121cf19c09b3fc3b9b3.bindPopup(popup_dc9094262d3d5ed2208b872b484c4711)
+        ;
+
+        
+    
+    
+            var marker_949712649fe8b5cd9228ee56a305ca01 = L.marker(
+                [40.584173, -73.950811],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_808ddf228e8e4defd476426349a2a7fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6eadb095ca7f8c9495e77208c2c4e3ec = $(`<div id="html_6eadb095ca7f8c9495e77208c2c4e3ec" style="width: 100.0%; height: 100.0%;">1780 SHEEPSHEAD BAY ROAD</div>`)[0];
+            popup_808ddf228e8e4defd476426349a2a7fa.setContent(html_6eadb095ca7f8c9495e77208c2c4e3ec);
+        
+
+        marker_949712649fe8b5cd9228ee56a305ca01.bindPopup(popup_808ddf228e8e4defd476426349a2a7fa)
+        ;
+
+        
+    
+    
+            var marker_b9f15df47c284680eaf7388ff62f7639 = L.marker(
+                [40.579489, -73.96255],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_fa527864e25f56a1360c3af571ce0972 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c1e50343c9149a5595515f5ddee1f60 = $(`<div id="html_5c1e50343c9149a5595515f5ddee1f60" style="width: 100.0%; height: 100.0%;">THE CROWN</div>`)[0];
+            popup_fa527864e25f56a1360c3af571ce0972.setContent(html_5c1e50343c9149a5595515f5ddee1f60);
+        
+
+        marker_b9f15df47c284680eaf7388ff62f7639.bindPopup(popup_fa527864e25f56a1360c3af571ce0972)
+        ;
+
+        
+    
+    
+            var marker_29bea37b78199025ec823c4f92bf5e43 = L.marker(
+                [40.585845, -73.952764],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_863f890d79411a93db9a0ce0b0b80d43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a8e473faa1e14f804502946e24ba562 = $(`<div id="html_3a8e473faa1e14f804502946e24ba562" style="width: 100.0%; height: 100.0%;">1609 VOORHIES AVENUE</div>`)[0];
+            popup_863f890d79411a93db9a0ce0b0b80d43.setContent(html_3a8e473faa1e14f804502946e24ba562);
+        
+
+        marker_29bea37b78199025ec823c4f92bf5e43.bindPopup(popup_863f890d79411a93db9a0ce0b0b80d43)
+        ;
+
+        
+    
+    
+            var marker_e0dffabffc949e8956b3ed3e442d8d74 = L.marker(
+                [40.58048, -73.96449],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_ac7dc5d461a0cd6809571ae7f8c24c1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ccced961d9235851da1fb7ff6e8db862 = $(`<div id="html_ccced961d9235851da1fb7ff6e8db862" style="width: 100.0%; height: 100.0%;">2920 BRIGHTON 4TH STREET</div>`)[0];
+            popup_ac7dc5d461a0cd6809571ae7f8c24c1e.setContent(html_ccced961d9235851da1fb7ff6e8db862);
+        
+
+        marker_e0dffabffc949e8956b3ed3e442d8d74.bindPopup(popup_ac7dc5d461a0cd6809571ae7f8c24c1e)
+        ;
+
+        
+    
+    
+            var marker_7ab7616a8727d68349a2f5ad6907de7d = L.marker(
+                [40.580805, -73.96535],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_c835f99451817d970a7ad970f8da2d7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6e071f72ccd1e6e09d17c5d491ed041 = $(`<div id="html_d6e071f72ccd1e6e09d17c5d491ed041" style="width: 100.0%; height: 100.0%;">340 NEPTUNE AVENUE APARTMENTS</div>`)[0];
+            popup_c835f99451817d970a7ad970f8da2d7b.setContent(html_d6e071f72ccd1e6e09d17c5d491ed041);
+        
+
+        marker_7ab7616a8727d68349a2f5ad6907de7d.bindPopup(popup_c835f99451817d970a7ad970f8da2d7b)
+        ;
+
+        
+    
+    
+            var marker_9069f931d180eb1edb115d0edb4c8a39 = L.marker(
+                [40.579402, -73.96507],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_62a0c5f72fba2d4924d57c3a01798913 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56ce76fc97a3a19e3ef32d7555b40e95 = $(`<div id="html_56ce76fc97a3a19e3ef32d7555b40e95" style="width: 100.0%; height: 100.0%;">2954 BRIGHTON 3 STREET</div>`)[0];
+            popup_62a0c5f72fba2d4924d57c3a01798913.setContent(html_56ce76fc97a3a19e3ef32d7555b40e95);
+        
+
+        marker_9069f931d180eb1edb115d0edb4c8a39.bindPopup(popup_62a0c5f72fba2d4924d57c3a01798913)
+        ;
+
+        
+    
+    
+            var marker_59a17b11c778cb0fc0cef3cba1ea4159 = L.marker(
+                [40.59209, -73.936463],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_0b346612c53f16efb2e77045c699e87b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_beaaddd09ea21ab4e0327128519bc637 = $(`<div id="html_beaaddd09ea21ab4e0327128519bc637" style="width: 100.0%; height: 100.0%;">KINGS BAY HOUSES SECTION TWO, INC. HRP.FY18</div>`)[0];
+            popup_0b346612c53f16efb2e77045c699e87b.setContent(html_beaaddd09ea21ab4e0327128519bc637);
+        
+
+        marker_59a17b11c778cb0fc0cef3cba1ea4159.bindPopup(popup_0b346612c53f16efb2e77045c699e87b)
+        ;
+
+        
+    
+    
+            var marker_4adc70ee4022aecaa5dd1443f4aabc99 = L.marker(
+                [40.591314, -73.937238],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_e7f311d0d97c38adc3be4a3a7d493c07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_285eb6bfbabedc7efa1291809a401f95 = $(`<div id="html_285eb6bfbabedc7efa1291809a401f95" style="width: 100.0%; height: 100.0%;">KINGS BAY HOUSES SECTION TWO, INC. HRP.FY18</div>`)[0];
+            popup_e7f311d0d97c38adc3be4a3a7d493c07.setContent(html_285eb6bfbabedc7efa1291809a401f95);
+        
+
+        marker_4adc70ee4022aecaa5dd1443f4aabc99.bindPopup(popup_e7f311d0d97c38adc3be4a3a7d493c07)
+        ;
+
+        
+    
+    
+            var marker_1fbb2e2398b79b3e846e4c65ec2b7325 = L.marker(
+                [40.591193, -73.937217],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_1783e162d848b5067933394cc819bd10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d8696f3325fb4c425090eb0c703133f = $(`<div id="html_6d8696f3325fb4c425090eb0c703133f" style="width: 100.0%; height: 100.0%;">KINGS BAY HOUSES SECTION TWO, INC. HRP.FY18</div>`)[0];
+            popup_1783e162d848b5067933394cc819bd10.setContent(html_6d8696f3325fb4c425090eb0c703133f);
+        
+
+        marker_1fbb2e2398b79b3e846e4c65ec2b7325.bindPopup(popup_1783e162d848b5067933394cc819bd10)
+        ;
+
+        
+    
+    
+            var marker_086a5cbfb72039c0737074d5a2efa092 = L.marker(
+                [40.575745, -73.962217],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_f5012899e31facaaa23f56fd944cdb62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2971fd48ec9bcf193e5c5eab9647b3d9 = $(`<div id="html_2971fd48ec9bcf193e5c5eab9647b3d9" style="width: 100.0%; height: 100.0%;">Brighton Houses Coop</div>`)[0];
+            popup_f5012899e31facaaa23f56fd944cdb62.setContent(html_2971fd48ec9bcf193e5c5eab9647b3d9);
+        
+
+        marker_086a5cbfb72039c0737074d5a2efa092.bindPopup(popup_f5012899e31facaaa23f56fd944cdb62)
+        ;
+
+        
+    
+    
+            var marker_ffd296c69fd41e656f7adf3e84625218 = L.marker(
+                [40.591371, -73.937271],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_4b3de031c6e02a7164790ba146637f4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3238c7579031d3a6f6588029ace07a43 = $(`<div id="html_3238c7579031d3a6f6588029ace07a43" style="width: 100.0%; height: 100.0%;">KINGS BAY HOUSING CO. INC. II</div>`)[0];
+            popup_4b3de031c6e02a7164790ba146637f4c.setContent(html_3238c7579031d3a6f6588029ace07a43);
+        
+
+        marker_ffd296c69fd41e656f7adf3e84625218.bindPopup(popup_4b3de031c6e02a7164790ba146637f4c)
+        ;
+
+        
+    
+    
+            var marker_456311b2550ddc0d428d94bb6cec3594 = L.marker(
+                [40.589736, -73.938323],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_2577c6ea2d1ca3d9bdab3e3981209232 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adef6d3d5200ce61d8b314d5417433ed = $(`<div id="html_adef6d3d5200ce61d8b314d5417433ed" style="width: 100.0%; height: 100.0%;">KINGS BAY HOUSING CO. INC. II</div>`)[0];
+            popup_2577c6ea2d1ca3d9bdab3e3981209232.setContent(html_adef6d3d5200ce61d8b314d5417433ed);
+        
+
+        marker_456311b2550ddc0d428d94bb6cec3594.bindPopup(popup_2577c6ea2d1ca3d9bdab3e3981209232)
+        ;
+
+        
+    
+    
+            var marker_69b7acb46fc6295e836802a67d6510eb = L.marker(
+                [40.591069, -73.937213],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_b323c53c80703ee1a6ad494197ea3f28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c62a0be50a06e2ea359c2edb93ef2cb4 = $(`<div id="html_c62a0be50a06e2ea359c2edb93ef2cb4" style="width: 100.0%; height: 100.0%;">KINGS BAY HOUSING CO. INC. II</div>`)[0];
+            popup_b323c53c80703ee1a6ad494197ea3f28.setContent(html_c62a0be50a06e2ea359c2edb93ef2cb4);
+        
+
+        marker_69b7acb46fc6295e836802a67d6510eb.bindPopup(popup_b323c53c80703ee1a6ad494197ea3f28)
+        ;
+
+        
+    
+    
+            var marker_869e0f49073edba7fb6b9ba49d20c683 = L.marker(
+                [40.590765, -73.93716],
+                {}
+            ).addTo(map_85dbf3cdb1f10053ce0ccf652ef76fed);
+        
+    
+        var popup_73d54bbebd7985bb89a72d9e7775ea14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_493fd4ebd892cfa7e023f833df972265 = $(`<div id="html_493fd4ebd892cfa7e023f833df972265" style="width: 100.0%; height: 100.0%;">KINGS BAY HOUSING CO. INC. II</div>`)[0];
+            popup_73d54bbebd7985bb89a72d9e7775ea14.setContent(html_493fd4ebd892cfa7e023f833df972265);
+        
+
+        marker_869e0f49073edba7fb6b9ba49d20c683.bindPopup(popup_73d54bbebd7985bb89a72d9e7775ea14)
+        ;
+
+        
+    
+</script>
