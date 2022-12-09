@@ -1,0 +1,54 @@
+body {
+    background-color: paleturquoise;
+}
+
+.bigpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 81%;
+    border: 2px solid gray;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 2px solid gray;
+}
+
+.map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border: 1px solid gray;
+}
+
+h1, h3, h4 {
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid gray;
+}
+
+.boxed {
+    margin: 15px;
+    padding: 10px;
+    padding-top: 0px;
+    border: 1px solid gray;
+}
+
+.bottom {
+    text-align: center;
+}
+
+.bottomp {
+    margin: 0;
+    padding: 0;
+}
